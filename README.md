@@ -124,3 +124,22 @@ JWT_SECRET=<your-jwt-secret>
 REDIS_URL=redis://localhost:6379
 RABBITMQ_URL=amqp://localhost
 PAYMENT_API_KEY=<your-payment-gateway-api-key>
+
+API Documentation
+All endpoints are versioned under /api/v1. Below is a brief overview of the main routes.
+
+Authentication
+POST /api/v1/auth/login: User login and JWT token issuance.
+POST /api/v1/auth/register: User registration.
+Endpoints
+GET /api/v1/flights/search: Search for available flights.
+POST /api/v1/bookings: Book a flight.
+POST /api/v1/bookings/cancel: Cancel an existing booking.
+GET /api/v1/flights/status/:flightId: Check the status of a flight.
+Error Handling
+Standard error response structure:
+{
+  "error": true,
+  "message": "Resource not found",
+  "statusCode": 404
+}
