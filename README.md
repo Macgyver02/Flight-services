@@ -175,3 +175,42 @@ We use **Jest** and **Supertest** for unit and integration testing.
 Testing includes coverage for all API endpoints and business logic. The goal is 90%+ coverage across the application.
 
 ## CI/CD Integration
+
+We utilize Jenkins for CI/CD with automated testing and deployment to AWS.
+
+- **Build:** Automatically triggered for each commit and pull request.
+- **Test:** Runs unit and integration tests.
+- **Deploy:** Deploys to AWS ECS for production/staging.
+
+Pipeline configuration can be found in `.jenkinsfile`.
+
+## Contributing
+
+We follow a **Gitflow** workflow. All feature development should be done on branches, and pull requests must be reviewed before merging to `main`.
+
+### Steps to contribute:
+
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a pull request and request a review.
+
+Please check the [CONTRIBUTING.md](CONTRIBUTING.md) file for further details.
+
+## Roadmap
+
+- **Phase 1:** Complete flight booking functionality, user authentication, and payment integration.
+- **Phase 2:** Introduce seat selection and baggage management.
+- **Phase 3:** Expand to integrate airline APIs and global distribution systems (GDS).
+- **Phase 4:** Build a mobile app for users to manage bookings and receive notifications.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Explanation:
+- **Detailed Structure:** This README covers all critical aspects for a professional developer, such as architecture, API documentation, testing, and CI/CD integration.
+- **Tech Stack & Architecture:** Provides a clear understanding of the tech stack and microservices architecture.
+- **API Documentation:** Lists important API endpoints along with an explanation of error handling.
+- **Testing and CI/CD:** Emphasizes testing and continuous integration with tools like Jenkins and Docker.
