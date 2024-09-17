@@ -204,3 +204,14 @@ Please check the [CONTRIBUTING.md](CONTRIBUTING.md) file for further details.
 - **Phase 2:** Introduce seat selection and baggage management.
 - **Phase 3:** Expand to integrate airline APIs and global distribution systems (GDS).
 - **Phase 4:** Build a mobile app for users to manage bookings and receive notifications.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+### Explanation:
+- **Detailed Structure:** This README covers all critical aspects for a professional developer, such as architecture, API documentation, testing, and CI/CD integration.
+- **Tech Stack & Architecture:** Provides a clear understanding of the tech stack and microservices architecture.
+- **API Documentation:** Lists important API endpoints along with an explanation of error handling.
+- **Testing and CI/CD:** Emphasizes testing and continuous integration with tools like Jenkins and Docker.
